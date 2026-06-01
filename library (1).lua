@@ -781,7 +781,7 @@ do
                     --mainFrame.Parent = uiScreen
                 end
 
-                local bgImage = Instance.new('ImageLabel') do
+        local bgImage = Instance.new('ImageLabel') do
             bgImage.Size = UDim2.fromScale(1, 1)
             bgImage.Position = UDim2.fromScale(0, 0)
             bgImage.BackgroundTransparency = 1
