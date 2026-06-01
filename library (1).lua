@@ -787,7 +787,7 @@ do
             bgImage.BackgroundTransparency = 0
             bgImage.ImageTransparency = 0.5
             bgImage.ScaleType = Enum.ScaleType.Crop
-            bgImage.Image = 'rbxassetid://78000033649077'
+            bgImage.Image = 'rbxassetid://1293887210'
             bgImage.ZIndex = 0
             bgImage.Parent = mainFrame
         end
