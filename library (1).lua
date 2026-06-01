@@ -255,7 +255,7 @@ do
             theme.Window1 = c
             theme.Window2 = Color3.new(c.R * 0.5, c.G * 0.5, c.B * 0.5)
             theme.Window3 = Color3.new(c.R * 0.7, c.G * 0.7, c.B * 0.7)
-        end
+    end
     
     
     if (rounding == nil) then
