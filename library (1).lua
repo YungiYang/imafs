@@ -250,6 +250,12 @@ do
             end
         end
     end
+   if args[1] and args[1].backgroundColor then
+    local c = args[1].backgroundColor
+    theme.Window1 = c
+    theme.Window2 = Color3.new(c.R * 0.5, c.G * 0.5, c.B * 0.5)
+    theme.Window3 = Color3.new(c.R * 0.7, c.G * 0.7, c.B * 0.7)
+end
     
     
     if (rounding == nil) then
