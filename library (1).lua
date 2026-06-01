@@ -784,11 +784,11 @@ do
         local bgImage = Instance.new('ImageLabel') do
             bgImage.Size = UDim2.fromScale(1, 1)
             bgImage.Position = UDim2.fromScale(0, 0)
-            bgImage.BackgroundTransparency = 1
+            bgImage.BackgroundTransparency = 0
             bgImage.ImageTransparency = 0.5
             bgImage.ScaleType = Enum.ScaleType.Crop
             bgImage.Image = 'rbxassetid://78000033649077'
-            bgImage.ZIndex = 1
+            bgImage.ZIndex = 0
             bgImage.Parent = mainFrame
         end
                 
